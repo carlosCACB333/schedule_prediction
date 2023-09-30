@@ -10,6 +10,6 @@ Este repositorio contiene el código fuente del proyecto realizado en el curso d
 ## Instrucciones para la ejecución del proyecto
 
 1. Clonar el repositorio
-2. Copiar el backup de la base de datos en la carpeta `./backup`
+2. Copiar el backup de la base de datos en la carpeta `./backup` y levantar manualmente. para ello se puede usar sql server management studio
 3. Ejecutar el comando `docker-compose up -d`
 4. Ejecutar el comando `docker exec -it sga bash`

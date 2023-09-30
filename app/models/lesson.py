@@ -1,5 +1,4 @@
-from optapy import planning_id
-from optapy import planning_entity, planning_variable
+from optapy import planning_id, planning_entity, planning_variable
 from models.timeslot import Timeslot
 from models.classroom import classroom
 from models.timeslot import Timeslot
@@ -36,7 +35,7 @@ class Lesson:
 
     def get_color(self):
         return self.color
-    
+
     def set_color(self, new_color):
         self.color = new_color
 
@@ -51,5 +50,4 @@ class Lesson:
             f"student_group={self.student_group}"
             f"color={self.color}"
             f")"
-
         )

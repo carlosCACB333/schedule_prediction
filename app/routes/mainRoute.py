@@ -20,12 +20,12 @@ async def get_timetable():
         .withSolutionClass(TimeTable)
         .withConstraintProviderClass(define_constraints)
         .withTerminationSpentLimit(Duration.ofSeconds(120))
-    )
+    )   
 
     solution: TimeTable = (
         solver_factory_create(solver_config).buildSolver().solve(generate_problem())
     )
-
+    print(solution)
     timeslot_list = solution.timeslot_list
     lesson_list = solution.lesson_list
     room_list = solution.room_list

@@ -10,3 +10,4 @@ seaborn
 tensorflow
 keras_tuner
 scikit-learn
+tensorflow_recommenders

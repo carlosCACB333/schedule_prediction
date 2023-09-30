@@ -43,7 +43,7 @@ def define_constraints(constraint_factory: ConstraintFactory):
         # teacher_time_efficiency(constraint_factory),
         # student_group_subject_variety(constraint_factory),
         # student_group_time_efficiency(constraint_factory),
-        studen_group_room_stability(constraint_factory),
+        # studen_group_room_stability(constraint_factory),
     ]
 
 
